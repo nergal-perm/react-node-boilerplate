@@ -1,8 +1,9 @@
 {
-  "name": "codecademy-react",
+  "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "proxy": "http://localhost:3000/",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",

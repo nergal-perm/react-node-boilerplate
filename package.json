@@ -1,0 +1,29 @@
+{
+  "name": "react-node-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "babel-node start-server.js",
+    "client": "babel-node start-client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nergal-perm/react-node-boilerplate.git"
+  },
+  "author": "Eugene Terekhov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nergal-perm/react-node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nergal-perm/react-node-boilerplate#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "concurrently": "^3.4.0"
+  },
+  "dependencies": {
+    "cross-spawn": "^5.1.0"
+  }
+}
